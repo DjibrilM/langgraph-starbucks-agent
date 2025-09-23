@@ -1,4 +1,4 @@
-# ChatService – Conversational AI Agent for Starbucks Orders
+# Conversational AI Agent for Starbucks Orders
 
 This project implements a **NestJS-based conversational AI agent** that allows users to order drinks from Starbucks.  
 The AI agent is powered by **LangChain's LangGraph** framework, connected to a **MongoDB** database, and enhanced with Google's **Generative AI** model.
