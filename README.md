@@ -98,4 +98,4 @@ Orders are validated using the **Zod schema** before insertion.
 
 ## 📜 License
 
-MIT License – feel free to use and modify.
+MIT License 
