@@ -4,7 +4,6 @@ import {
   Controller,
   Param,
   Post,
-  Query,
 } from '@nestjs/common';
 import { ChatService } from './chats.service';
 import sendChatDto from './dtos/send-chat.dto';

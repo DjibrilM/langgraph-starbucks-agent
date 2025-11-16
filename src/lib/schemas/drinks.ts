@@ -155,6 +155,7 @@ export const MilkSchema = z.object({
   image: z.string().url().optional(),
 });
 
+
 // --- Collections ---
 // These schemas define arrays of the individual item schemas.
 
@@ -249,6 +250,10 @@ export type Sweeteners = z.infer<typeof SweetenersSchema>;
  * @description TypeScript type for an array of Drink objects.
  */
 export type Drinks = z.infer<typeof DrinksSchema>;
+
+
+
+
 
 // --- Structured Output Parsers ---
 // THESE ARE ESSENTIAL FOR AI WORKFLOWS.
